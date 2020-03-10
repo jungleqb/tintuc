@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteRule ^trang-chu$ index.php
+RewriteRule ^ca-nhan$ profile.php
+RewriteRule ^dang-nhap$ login.php
+RewriteRule ^dang-ky$ register.php
+RewriteRule ^tim-kiem$ search.php
+
+RewriteRule ^([a-zA-Z0-9-()]+).html$ tag.php?tags=$1
+RewriteRule ^([a-zA-Z0-9_-]+)$ type.php?url=$1
+RewriteRule ^([a-zA-Z0-9_-]+)-([0-9]+).html$ profile.php?name=$1&id=$2
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)-([0-9]+).html$ detail.php?url=$1&title=$2&id=$3

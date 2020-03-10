@@ -1,0 +1,30 @@
+@media screen and (max-width:1200px){
+
+}
+@media screen and (max-width:1024px){
+
+}
+@media screen and (max-width: 991px){
+	.trendding-right{
+		float: left;
+	}
+	.bn-left{
+		margin-bottom: 10px;
+	}
+
+	.left-top{
+		padding: 5px 0px;
+	}
+	.left-top span.days-time{
+		display: block;
+		margin-left: 10px;
+		text-align: center;
+	}
+	.right-top{
+		float: left;
+		padding: 5px 0px;
+	}
+}
+@media screen and (max-width:768px){
+
+}
